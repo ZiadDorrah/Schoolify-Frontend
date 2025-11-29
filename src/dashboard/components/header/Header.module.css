@@ -1,0 +1,16 @@
+.header {
+    background-color: #fff;
+    padding: 8px 24px;
+}
+
+.header button {
+    border: none;
+    background-color: transparent;
+}
+
+.title {
+    color: #000;
+    font-family: 'Expo';
+    font-weight: 600;
+    font-size: 16px;
+}

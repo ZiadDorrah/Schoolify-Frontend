@@ -1,0 +1,40 @@
+.drawer-container {
+    width: 100%;
+
+    /* height: 100vh; */
+    transition: width 0.3s ease-in-out;
+}
+
+.drawer {
+    width: 100%;
+    border-radius: 15px;
+    padding: 25px 0;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+    /* Use CSS transition for smooth animation */
+}
+
+.sidebar-buttons li {
+    margin: 20px 0;
+}
+
+.sidebar-buttons li h2 {
+    font-family: 'Expo-medium';
+    font-weight: 500;
+    font-size: 32px;
+    color: #616161;
+    text-align: start;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.sidebar-buttons li .selected>h2 {
+    font-family: 'Expo-bold';
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/nomada-didone');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Noto+Sans+Arabic&display=swap');
+
+.spical_button {
+    border-radius: 72px;
+    gap: 23px;
+    width: 210px;
+    background-color: var(--main-button-color);
+    padding: 10px;
+    color: #fff;
+    border: 1px solid var(--main-button-color);
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    transition: .4s;
+    font-family: 'Expo', sans-serif;
+
+}
+
+.title {
+    font-family: 'Expo-SemiBold';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+}
+
+.paragraph {
+    font-family: 'Expo';
+    font-weight: 400;
+    font-size: 18px;
+    color: #616161;
+    margin-right: 10px;
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1456px) {
+    .title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 1066px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 16px;
+    }
+}

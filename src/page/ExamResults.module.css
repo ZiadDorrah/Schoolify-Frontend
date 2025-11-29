@@ -1,0 +1,239 @@
+.results {
+    gap: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.resultPage {
+    flex-grow: 1;
+}
+
+.resultPage>* {
+    margin-bottom: 60px;
+}
+
+.result {
+
+    margin-top: 65px;
+}
+
+.result h1 {
+    font-family: 'Expo', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000;
+}
+
+.result>* {
+    /* margin-top: 65px; */
+    margin-bottom: 33px;
+    /* margin-left: 10%; */
+    /* margin-right: 150px; */
+}
+
+.terms{
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    /* gap: 22px; */
+    /* position: relative; */
+}
+
+
+.terms .term-box {
+    background-color: #ffffff; 
+    border-radius: 12px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    height: 103px;
+    padding: 10px;
+    /* position: relative; */
+    width: 49.5%;   
+    color: #000;
+    transition: .5s;
+} 
+
+.terms .term-box:hover,
+.terms .term-box:active {
+    background-color: #56ad01;
+    color: #ffffff;
+}
+
+/* .terms .term-box:active .text-wrapper {
+    color: #ffffff; 
+} */
+
+.terms .text-wrapper {
+    font-family: 'Expo', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    /* line-height: 38.4px; */
+    /* transition: color 0.3s; Add a smooth transition for color changes */
+}
+
+@media (max-width: 500px) {
+    .terms {
+        flex-direction: column;
+        width: 100%; 
+      }
+    .terms .term-box{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .terms .text-wrapper{
+        font-size: 20px;
+    }
+}
+@media (max-width: 300px) {
+    .terms .text-wrapper{
+        font-size: 10px;
+    }
+}
+.frame {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1) ;
+    border: 1px solid ;
+    border-color: rgba(241, 245, 247, 1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 16px 16px 24px;
+    position: relative;
+}
+
+.frame .arrow {
+    /* height: 24px;
+    width: 24px;
+    position: relative; */
+    /* font-size: 10px; */
+    /* width: 10px; */
+}
+
+.frame .element {
+    color: transparent;
+    direction: rtl;
+    font-family: 'Expo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+    padding-top: 19px;
+}
+
+.frame .text-wrapper{
+    color: #17181A;
+    font-family:'Expo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.frame .span {
+    color: #56ad01;
+    font-family: 'Expo', Helvetica;    
+    font-size: 15px;
+    font-weight: 600;
+    /* padding-top: 8px; */
+}  
+.frame .name {
+    color : rgba(23, 24, 26, 1);
+    /* direction: rtl; */
+    /* flex: 1; */
+    font-family:'Expo', sans-serif;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 600;
+    height: 21px;
+    /* letter-spacing: 0px; */
+    /* line-height: normal;
+    white-space: nowrap; */
+    padding-top: 8px;
+}
+@media (max-width: 740px) {
+    .terms .term-box{
+        /* padding: 12px; */
+        /* min-height: 53px; */
+        /* width: 100%; */
+    }
+    .terms .text-wrapper{
+        font-size: 22px;
+    }
+    .frame{
+        padding: 8px 8px 20px 8px;
+    }
+    .frame .text-wrapper{
+        display: none;
+    }
+    .frame .name{
+        font-size: 20px;
+    }
+    .frame .span{
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .frame{
+        padding: 8px 8px 20px 8px;
+    }
+    .frame .text-wrapper{
+        display: none;
+    }
+    .frame .name{
+        font-size: 12px;
+    }
+    .frame .span{
+        font-size: 10px;
+    }
+}
+
+.frame .calender{
+    height: 48px;
+    width: 48px;
+    position: relative;
+}
+
+.subject .openSubject {
+    background-color: #f1f5f7;
+}
+.openFrame {
+    background-color: #f1f5f7;
+  }
+
+.frame .goodDegree {
+    color: #ff8700;
+    font-family: 'Expo', Helvetica;   
+    font-size: 15px;
+    font-weight: 500;
+    /* left: 0; */
+    /* top:0; */
+    /* position: relative; */
+    text-align: right;
+    /* white-space: nowrap; */
+}  
+.frame .badDegree {
+    color: #FF0000;
+    font-family: 'Expo', Helvetica;   
+    font-size: 15px;
+    font-weight: 500;
+    /* left: 0; */
+    /* top:0; */
+    /* position: relative; */
+    text-align: right;
+    /* white-space: nowrap; */
+}  
+
+
+@media (max-width: 500px) {
+    .frame .span2{
+        font-size: 13px;
+    }
+}

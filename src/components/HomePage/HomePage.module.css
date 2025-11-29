@@ -1,0 +1,813 @@
+/* homePage  */
+/* in small screen we have to change the font size for all p and h2 in the page and change the size of photo in Lesson title component  */
+/* and remove the margin top in the hpwrapper  */
+/* rightSection we have to display none in small screen  */
+.hpWrapper {
+  margin-top: 80px; /* this we need to remove in small screen  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 146px;
+  .leftSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 56px;
+  } /* homePage  */
+  /* in small screen we have to change the font size for all p and h2 in the page and change the size of photo in Lesson title component  */
+  /* and remove the margin top in the hpwrapper  */
+  /* rightSection we have to display none in small screen  */
+  .hpWrapper {
+    margin-top: 80px; /* this we need to remove in small screen  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 146px;
+    .leftSection {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 56px;
+    }
+    .rightSection {
+      max-width: 533px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      gap: 50px;
+      .rsTitle {
+        width: 100%;
+        border-radius: 16px;
+        border: 1px solid #f1f5f7;
+        background: #ffffff;
+        padding: 16px;
+
+        p {
+          margin-bottom: 0 !important;
+          font-size: 24px;
+          font-weight: 600;
+          font-family: "Expo";
+        }
+      }
+      .rsButton {
+        min-width: 533px;
+        border-radius: 66px;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background: #56ad01; */
+        border: 0;
+        p {
+          margin-bottom: 0 !important;
+          max-width: 232px;
+          font-size: 24px;
+          font-weight: 500;
+          color: white;
+          font-family: "Expo";
+        }
+        .rsIconButton {
+          max-width: 44px;
+          border: 0;
+          border-radius: 50%;
+          padding: 8px;
+          background: linear-gradient(180deg, #ffffff80, #ffffff00);
+        }
+      }
+    }
+  }
+
+  /* Styles for screens between 1151px and 1300px */
+  @media (min-width: 998px) and (max-width: 1300px) {
+    .hpWrapper {
+      gap: 80px;
+    }
+
+    .hpWrapper .rightSection {
+      width: 35%;
+    }
+
+    .hpWrapper .rightSection .rsTitle p {
+      font-size: 20px;
+    }
+
+    .hpWrapper .rightSection .rsButton {
+      min-width: 333px;
+    }
+
+    .hpWrapper .rightSection .rsButton p {
+      font-size: 20px;
+    }
+  }
+
+  /* homePage  */
+
+  /* video component  */
+
+  .vcContainer {
+    max-width: 941px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .vcContent {
+      width: 100%;
+      border-radius: 16px;
+    }
+    .vOverlay {
+      position: absolute;
+      width: 100%;
+      height: 99%;
+      background: #00000080;
+      z-index: 2;
+      border-radius: 16px;
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      max-width: 114px;
+      z-index: 3;
+      position: absolute;
+      border: 0;
+      border-radius: 91.61px;
+      padding: 32px;
+      background: #56ad01;
+      img {
+        max-width: 50px;
+      }
+    }
+  }
+
+  /* end video component  */
+
+  /* ___________________________________________ */
+
+  /* Lesson Title  */
+  .ltContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 562px;
+
+    .ltContainerTitle {
+      font-size: 32px;
+      font-weight: 600;
+      font-family: "Expo";
+    }
+
+    .ltContainerAvatar {
+      display: flex;
+      gap: 8px;
+      max-width: 282px;
+
+      img {
+        width: 85px;
+        height: 85px;
+      }
+      .ltTeacherInfo {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 8px;
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          font-family: "Expo";
+        }
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #616161;
+          margin-bottom: 0 !important;
+          font-family: "Expo";
+        }
+      }
+    }
+  }
+  /* end  Lesson Title  */
+
+  /* ___________________________________________ */
+
+  /* Lesson description */
+  .ldContainer {
+    max-width: 941px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 24px;
+  }
+  .ldContainerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: "Expo";
+    }
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      color: #616161;
+      margin-bottom: 0 !important;
+      font-family: "Expo";
+    }
+  }
+  /* end lesson description */
+
+  /* ___________________________________________ */
+
+  /* Belong Lesson  */
+  .blContainer {
+    max-width: 941px;
+    height: 380px;
+    border-radius: 24px;
+    border: 1px solid #f1f5f7;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    margin-bottom: 35px;
+    .blTitle {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: "Expo";
+    }
+    .blList {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .blListElement {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #f1f5f7;
+      border-radius: 16px;
+      padding: 16px 16px 16px 24px;
+      .blListContent {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        .blListIcon {
+          width: 48px;
+          margin: 0;
+          padding: 8px;
+          border-radius: 12px;
+          background: #f1f5f7;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 0 !important;
+        }
+      }
+      button {
+        width: 48px;
+        border-radius: 12px;
+        padding: 12px;
+        border: 0;
+        background: #56ad01;
+      }
+    }
+  }
+  /* end Belong Lesson  */
+
+  /* ___________________________________________ */
+
+  /* Student comments  */
+
+  .scContainer {
+    max-width: 941px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 32px;
+    border-radius: 24px;
+    background: #fff;
+    /*margin to gap between the another component */
+    margin-bottom: 15px;
+    h2 {
+      margin-bottom: 0 !important;
+      font-size: 24px;
+      font-family: "Expo";
+    }
+    .scComments {
+      max-width: 893px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+
+      .scComment {
+        width: 100%;
+        border-radius: 16px;
+        border: 1px solid #e8eaec;
+        display: flex;
+        /* align-items: center; */
+        gap: 8px;
+        padding: 16px;
+        background: #f1f5f7;
+
+        .scCommentImgContainer {
+          min-width: 48px;
+          height: 48px;
+          border-radius: 47px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+        }
+
+        .scCommentContent {
+          /* max-width: 805px; */
+          width: 90%;
+          display: flex;
+          /* justify-content: center; */
+          flex-direction: column;
+          gap: 8px;
+          h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 0 !important;
+            font-family: "Expo";
+          }
+          p {
+            margin-bottom: 0 !important;
+            font-size: 16px;
+            font-weight: 400;
+            color: #616161;
+            font-family: "Expo";
+          }
+          input {
+            max-width: 100% !important;
+            color: #616161;
+            font-size: 16px;
+            font-weight: 400;
+            height: 19px;
+            border: none;
+            outline: 0;
+          }
+        }
+      }
+    }
+  }
+
+  /* end  Student comments  */
+
+  @media (max-width: 999px) {
+    .hpWrapper {
+      display: block;
+    }
+    .rightSection,
+    .rightSection .rsTitle {
+      display: none !important;
+    }
+    .rsButton {
+      display: none !important;
+    }
+  }
+  @media (max-width: 550px) {
+    .ltContainerTitle {
+      font-size: 20px !important;
+    }
+    .ltContainerAvatar {
+      max-width: 182px;
+
+      img {
+        width: 85px;
+        height: 85px;
+      }
+      .ltTeacherInfo {
+        align-items: start !important;
+        gap: 8px;
+        h2 {
+          font-size: 16px !important;
+          font-weight: 600;
+        }
+        p {
+          font-size: 12px !important;
+        }
+      }
+    }
+    .ldContainerContent h2 {
+      font-size: 20px;
+    }
+    .ldContainerContent p {
+      font-size: 15px;
+    }
+    .blContainer .blTitle {
+      font-size: 20px;
+    }
+
+    .scContainer h2 {
+      font-size: 20px;
+    }
+    .scCommentContent h2 {
+      font-size: 16px !important;
+    }
+    .scCommentContent p {
+      font-size: 14px !important;
+    }
+  }
+  .rightSection {
+    max-width: 533px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    .rsTitle {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid #f1f5f7;
+      background: #ffffff;
+      padding: 16px;
+
+      p {
+        margin-bottom: 0 !important;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Expo";
+      }
+    }
+    .rsButton {
+      min-width: 533px;
+      border-radius: 66px;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* background: #56ad01; */
+      border: 0;
+      p {
+        margin-bottom: 0 !important;
+        max-width: 232px;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+        font-family: "Expo";
+      }
+      .rsIconButton {
+        max-width: 44px;
+        border: 0;
+        border-radius: 50%;
+        padding: 8px;
+        background: linear-gradient(180deg, #ffffff80, #ffffff00);
+      }
+    }
+  }
+}
+
+/* Styles for screens between 1151px and 1300px */
+@media (min-width: 998px) and (max-width: 1300px) {
+  .hpWrapper {
+    gap: 80px;
+  }
+
+  .hpWrapper .rightSection {
+    width: 35%;
+  }
+
+  .hpWrapper .rightSection .rsTitle p {
+    font-size: 20px;
+  }
+
+  .hpWrapper .rightSection .rsButton {
+    min-width: 333px;
+  }
+
+  .hpWrapper .rightSection .rsButton p {
+    font-size: 20px;
+  }
+}
+
+/* homePage  */
+
+/* video component  */
+
+.vcContainer {
+  max-width: 941px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .vcContent {
+    width: 100%;
+    border-radius: 16px;
+  }
+  .vOverlay {
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background: #00000080;
+    z-index: 2;
+    border-radius: 16px;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    max-width: 114px;
+    z-index: 3;
+    position: absolute;
+    border: 0;
+    border-radius: 91.61px;
+    padding: 32px;
+    background: #56ad01;
+    img {
+      max-width: 50px;
+    }
+  }
+}
+
+/* end video component  */
+
+/* ___________________________________________ */
+
+/* Lesson Title  */
+.ltContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 562px;
+
+  .ltContainerTitle {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Expo";
+  }
+
+  .ltContainerAvatar {
+    display: flex;
+    gap: 8px;
+    max-width: 282px;
+
+    img {
+      width: 85px;
+      height: 85px;
+    }
+    .ltTeacherInfo {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      gap: 8px;
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Expo";
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #616161;
+        margin-bottom: 0 !important;
+        font-family: "Expo";
+      }
+    }
+  }
+}
+/* end  Lesson Title  */
+
+/* ___________________________________________ */
+
+/* Lesson description */
+.ldContainer {
+  max-width: 941px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 24px;
+  padding: 24px;
+}
+.ldContainerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Expo";
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #616161;
+    margin-bottom: 0 !important;
+    font-family: "Expo";
+  }
+}
+/* end lesson description */
+
+/* ___________________________________________ */
+
+/* Belong Lesson  */
+.blContainer {
+  max-width: 941px;
+  height: 380px;
+  border-radius: 24px;
+  border: 1px solid #f1f5f7;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+  .blTitle {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Expo";
+  }
+  .blList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .blListElement {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f1f5f7;
+    border-radius: 16px;
+    padding: 16px 16px 16px 24px;
+    .blListContent {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      .blListIcon {
+        width: 48px;
+        margin: 0;
+        padding: 8px;
+        border-radius: 12px;
+        background: #f1f5f7;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0 !important;
+      }
+    }
+    button {
+      width: 48px;
+      border-radius: 12px;
+      padding: 12px;
+      border: 0;
+      background: #56ad01;
+    }
+  }
+}
+/* end Belong Lesson  */
+
+/* ___________________________________________ */
+
+/* Student comments  */
+
+.scContainer {
+  max-width: 941px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  gap: 32px;
+  border-radius: 24px;
+  background: #fff;
+  /*margin to gap between the another component */
+  margin-bottom: 15px;
+  h2 {
+    margin-bottom: 0 !important;
+    font-size: 24px;
+    font-family: "Expo";
+  }
+  .scComments {
+    max-width: 893px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
+    .scComment {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid #e8eaec;
+      display: flex;
+      /* align-items: center; */
+      gap: 8px;
+      padding: 16px;
+      background: #f1f5f7;
+
+      .scCommentImgContainer {
+        min-width: 48px;
+        height: 48px;
+        border-radius: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+      }
+
+      .scCommentContent {
+        /* max-width: 805px; */
+        width: 90%;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 8px;
+        h2 {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 0 !important;
+          font-family: "Expo";
+        }
+        p {
+          margin-bottom: 0 !important;
+          font-size: 16px;
+          font-weight: 400;
+          color: #616161;
+          font-family: "Expo";
+        }
+        input {
+          max-width: 100% !important;
+          color: #616161;
+          font-size: 16px;
+          font-weight: 400;
+          height: 19px;
+          border: none;
+          outline: 0;
+        }
+      }
+    }
+  }
+}
+
+/* end  Student comments  */
+
+@media (max-width: 999px) {
+  .hpWrapper {
+    display: block;
+  }
+  .rightSection,
+  .rightSection .rsTitle {
+    display: none !important;
+  }
+  .rsButton {
+    display: none !important;
+  }
+}
+@media (max-width: 550px) {
+  .ltContainerTitle {
+    font-size: 20px !important;
+  }
+  .ltContainerAvatar {
+    max-width: 182px;
+
+    img {
+      width: 85px;
+      height: 85px;
+    }
+    .ltTeacherInfo {
+      align-items: start !important;
+      gap: 8px;
+      h2 {
+        font-size: 16px !important;
+        font-weight: 600;
+      }
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .ldContainerContent h2 {
+    font-size: 20px;
+  }
+  .ldContainerContent p {
+    font-size: 15px;
+  }
+  .blContainer .blTitle {
+    font-size: 20px;
+  }
+
+  .scContainer h2 {
+    font-size: 20px;
+  }
+  .scCommentContent h2 {
+    font-size: 16px !important;
+  }
+  .scCommentContent p {
+    font-size: 14px !important;
+  }
+}

@@ -1,0 +1,91 @@
+.dues {
+    display: flex;
+    gap: 27px;
+}
+
+.dues h2 {
+    font-family: 'Expo-SemiBold';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dues p {
+    font-family: 'Expo';
+    font-weight: 400;
+    font-size: 18px;
+    color: #616161;
+}
+
+.medals,
+.goals {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    direction: rtl;
+    padding: 40px 61px 11px 30px;
+}
+
+.medals>:first-child,
+.goals>:first-child {
+    margin-bottom: 51px;
+}
+
+.goals p {
+    margin-bottom: 25px;
+}
+
+.medals {
+    width: 40%;
+}
+
+.medals span {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.goals {
+    width: 55%;
+}
+
+.goals h3 {
+    font-family: 'Expo-bold';
+    font-weight: 700;
+    font-size: 18px;
+    color: #56AD01;
+}
+
+@media (max-width: 1150px) {
+
+    .medals>*,
+    .goals>* {
+        margin-bottom: 10px;
+    }
+
+    .dues {
+        flex-wrap: wrap;
+    }
+
+    .dues .goals {
+        width: 100%;
+    }
+
+    .goals p {
+        font-family: 'Expo';
+        font-weight: 500;
+    }
+
+    .dues .medals {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dues .goals>h2,
+    .dues .goals>p {
+        margin-bottom: 10px;
+    }
+
+    .dues .medals>div {
+        margin-bottom: 10px;
+    }
+}

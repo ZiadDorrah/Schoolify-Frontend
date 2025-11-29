@@ -1,0 +1,174 @@
+/* .widgetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.widget {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffff;
+  min-height: 742px;
+  width: 1110px;
+  border-radius: 24px;
+  border: 1px solid #f1f5f7;
+}
+.rightContent {
+  max-width: 358px;
+  height: 410px;
+  text-align: center;
+  margin: 157px 182px 157px 44px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Expo", sans-serif;
+    color: #353535;
+    margin-bottom: 16px;
+  }
+
+
+  form {
+    max-width: 358px;
+    height: 198px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 56px;
+
+    label {
+      margin-bottom: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Expo";
+    }
+    .inputSection {
+      max-width: 358px;
+      height: 56px;
+      display: flex;
+      gap: 8px;
+      margin-bottom: 56px;
+
+      .phoneNumber {
+        max-width: 240px;
+        height: 50px;
+        background: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 12px;
+        border: 1px solid #d6d6d6;
+        ::placeholder {
+          color: #a5a5a5;
+          font-size: 16px;
+          font-family: "Expo";
+          font-weight: 400;
+          text-align: right;
+        }
+
+        .phoneImg {
+          width: 24px;
+          height: 24px;
+          margin-right: 16px;
+          img {
+            width: 100%;
+          }
+        }
+
+        input {
+          max-width: 178px;
+          height: 26px;
+          font-family: "Expo";
+          font-size: 16px;
+          font-weight: 400;
+          color: #a5a5a5;
+          background: #fafafa;
+          outline: none;
+          border: none;
+        }
+      }
+
+      .countryCode {
+        max-width: 74px;
+        height: 50px;
+        background: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 12px;
+        border: 1px solid #d6d6d6;
+        padding: 5px;
+        p {
+          font-size: 16px;
+        }
+        .countryImg {
+          min-width: 29px;
+          height: 240px;
+          border-radius: 5px;
+          margin-bottom: 7px;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .btn,
+    button {
+      width: 100%;
+      height: 55px;
+      border-radius: 12px;
+      border: 0;
+      color: #ffffff;
+      background: #56ad01;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .craeteAccountText {
+    max-width: 285px;
+    height: 26px;
+    margin-top: 33px;
+    margin: 33px auto 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #848484;
+
+    a {
+      color: #56ad01;
+      text-decoration: underline;
+    }
+  }
+}
+.liImage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 24px;
+  object-position: left;
+  object-fit: cover;
+}
+@media (max-width: 650px) {
+  .rightContent {
+    margin: 60px auto;
+  }
+  .leftImage {
+    display: none;
+  }
+  .leftImage h2 {
+    margin-top: 50px;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  .widget {
+    min-height: 600px;
+  }
+} */

@@ -1,0 +1,189 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Expo", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px; 
+}
+.questionContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1150px; /* Max width for large screens */
+    height: 65%;
+    border-radius: 25px;
+    background-color: #56ad01;
+    margin: 2%;
+    padding: 20px; /* Add padding for small screens */
+}
+.questionTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.questionIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.questionText {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Expo", sans-serif;
+    margin-right: 7px ;
+}
+.timer, .questionCount {
+    position: absolute;
+    right: 2%;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #3b6611;
+    text-align: center;
+    line-height: 30px; 
+    color: #fff;
+    font-family: "Expo", sans-serif;
+    font-weight: 600;
+}
+.timer {
+    top: 6%;
+}
+.questionCount {
+    top: 18%;
+}
+.time, .count {
+    font-size: 18px;
+    line-height: 31px;
+    
+}
+.timerImage, .counterImage {
+    position: absolute;
+    width: 40px;
+    right: 0.8%;
+    z-index: 1;
+}
+.timerImage {
+    top: 5%;
+}
+.counterImage {
+    top: 17%;
+}
+  
+  .studentImage {
+    height: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+    background: url('../../assets/images/abc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .answerarea {
+    width: 100%;
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+  
+  .voiceInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* flex-direction: column; */
+  }
+  
+  .recordButton, .submitButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #56ad01;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 10px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .recordButton:hover, .submitButton:hover {
+    background-color: #ffff;
+    color: #56ad01;
+    border: 2px solid #56AD01;
+  }
+  
+  .submittedText {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .recordingIndicator {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .visualizer {
+    height: 35px;
+    width: 50%; 
+    max-width: 300px; 
+    border: 2px solid #808080;
+    border-radius: 60px;
+    margin: 20px 0; 
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px; 
+    }
+  
+    .questionContainer {
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .timer, .questionCount {
+      /* position: static; */
+      display: none; 
+
+      margin: 10px 0; 
+      width: auto; 
+      height: auto; 
+      padding: 5px 10px;
+    }
+  
+    .timerImage, .counterImage {
+      display: none; 
+    }
+  
+    .studentImage {
+      width: 100%; 
+      height: auto; 
+      margin: 20px 0; 
+    }
+  
+    .voiceInput {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .recordButton, .submitButton {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  
+    .visualizer {
+      width: 100%; 
+    }
+  }
+  

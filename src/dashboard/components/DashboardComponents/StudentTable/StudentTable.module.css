@@ -1,0 +1,92 @@
+.wrapper {
+  width: 100%;
+
+  .container {
+    max-width: 815px;
+    height: 510px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    background: #ffffff;
+
+    .upperSide {
+      width: 783px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h2 {
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      .searchInput {
+        width: 343px;
+        height: 56px;
+        padding: 16px;
+        display: flex;
+        gap: 8px;
+        border-radius: 2px;
+        background: #fafafa;
+
+        .stImage {
+          width: 24px;
+          height: 24px;
+        }
+
+        .stInput {
+          outline: none;
+          border: none;
+          text-align: right;
+          background: transparent;
+          font-weight: 300;
+          font-size: 14px;
+          color: black;
+        }
+        .stInput::placeholder {
+          color: #a5a5a5;
+        }
+      }
+    }
+    .lowerSide {
+      max-width: 783px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      table {
+        width: 100%;
+        max-height: 406px;
+        border: 1px solid #f1f1f1;
+        border-radius: 16px;
+        font-size: 14px;
+        overflow-y: hidden !important;
+
+        thead {
+          tr {
+            background: #f9f9f9;
+            font-weight: 500;
+          }
+        }
+
+        tr {
+          border-bottom: 1px solid #f1f1f1;
+        }
+        td {
+          width: 111px;
+          height: 46px;
+          padding: 16px 12px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

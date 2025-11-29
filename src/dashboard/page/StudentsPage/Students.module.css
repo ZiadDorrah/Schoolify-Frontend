@@ -1,0 +1,138 @@
+.wrapper {
+  display: flex;
+  /* gap: 15px; */
+  /* height: 100vh; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.middleSide {
+  width: 1128px;
+  /* min-height: 630px; */
+  padding: 16px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #f1f1f1;
+  border-radius: 12px;
+  background: #ffffff;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    max-height: 406px;
+    border: 1px solid #f1f1f1;
+    border-radius: 16px;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 14px;
+
+    th {
+      background: #f9f9f9;
+      font-weight: 500;
+      height: 46px;
+      padding: 12px 16px;
+    }
+
+    td {
+      width: 219px;
+      height: 80px;
+      padding: 12px 16px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+
+    .buttonsContainer {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    button {
+      width: 92px;
+      height: 48px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+    }
+
+    .accept {
+      background: #eef7e6;
+      color: #56ad01;
+    }
+
+    .refused {
+      background: #ff000012;
+      color: #ff0000;
+    }
+  }
+}
+
+.content {
+  width: 100%;
+}
+
+.selectSection {
+  padding: 20px;
+  border-radius: 8px;
+  /* display: grid;
+  grid-template-columns: 1fr 2fr; 
+  grid-gap: 20px;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectSection h6 {
+  margin: 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* .selectContainer {
+  width: 100%; 
+} */
+
+.selectContainer select {
+  /* width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Expo';
+  border: 1px solid #57ad0179;
+  border-radius: 4px;
+  font-size: 16px; */
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #56ad01 !important;
+  cursor: pointer;
+  margin-left: 5px;
+  outline: none;
+}
+
+.selectContainer select option {
+  font-size: 16px;
+  font-family: "Expo";
+}
+
+.selectContainer select:focus {
+  border-color: #888;
+}
+
+.selectContainer select option:hover,
+.selectContainer select option:focus {
+  background-color: #f0f0f0;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 300px; */
+}

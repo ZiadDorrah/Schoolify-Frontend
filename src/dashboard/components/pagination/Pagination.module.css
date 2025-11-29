@@ -1,0 +1,22 @@
+.pagination {
+    --bs-pagination-hover-color: none;
+    --bs-pagination-focus-box-shadow: none;
+}
+
+.pagination li {
+    margin-right: 10px;
+}
+
+.pagination .active button {
+    color: white;
+    background-color: #56ad01;
+}
+
+.pagination li button {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 7.78px;
+    border: 0.88px solid #f1f1f2;
+    color: #000000;
+}

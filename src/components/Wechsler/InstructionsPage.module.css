@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    background: 
+      linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+      url('../../assets/images/abc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: "Expo", sans-serif;
+
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 20px;
+    font-family: "Expo", sans-serif;
+
+  }
+  
+  .instructionsList {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .instructionsList li {
+    margin-bottom: 10px;
+  }
+  
+  .nextButton {
+    border: 1px solid #56ad01;
+    border-radius: 72px;
+    width: 210px;
+    background-color: #56AD01;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-family: 'Expo';
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+  }
+  
+  .nextButton:hover {
+    background-color: #fff;
+    color: #56ad01;
+    border: 2px solid #56AD01;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 1.5rem;
+    }
+  
+    .instructionsList {
+      font-size: 1rem;
+    }
+  
+    .nextButton {
+      width: 180px;
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 1.2rem;
+    }
+  
+    .instructionsList {
+      font-size: 0.9rem;
+    }
+  
+    .nextButton {
+      width: 150px;
+      font-size: 0.6rem;
+    }
+  }
+  

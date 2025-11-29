@@ -1,0 +1,93 @@
+/* font-family: 'ExpoArabicBook', sans-serif; */
+.chachallengs {
+    gap: 75px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-stu-res {
+    display: block !important;
+}
+
+@media (min-width: 991px) {
+    .page {
+        width: 80%;
+    }
+
+    .info-stu-res {
+        display: none !important;
+    }
+
+}
+
+@media  (max-width: 991px) {
+    .chachallengs {
+        display: block;
+    }
+}
+.page>* {
+    margin-bottom: 60px;
+}
+
+.revision-content{
+    margin-top: 150px;
+    text-align: center;
+}
+.revision-content h1  ,.revision-content p {
+    color: #353535;
+    font-weight: 600;
+    font-size: 32px;
+    /* line-height: 38.4; */
+    text-align: center;
+    font-family: 'Expo', sans-serif;
+}
+.revision-content p span{
+    color: var(--main-bg-color);
+}
+
+.btn {
+    width: 401px;
+    background-color: #56AD01;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 9px;
+    padding: 10px;
+    font-family: 'Expo', sans-serif;
+}
+.btn:hover{
+    transition: .5s;
+    background-color: var(--main-button-color);
+    color: white;
+}
+
+@media (max-width: 1502px) {
+.btn {
+        width: 90%;
+        padding: 10px;
+        font-family: 'Expo-medium';
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    .revision-content h1  ,.revision-content p {
+        color: #353535;
+        font-weight: 600;
+        font-size: 22px;
+        /* line-height: 38.4; */
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px){
+    .image{
+        width: 200px;
+    }
+    .revision-content{
+        margin-top: 50px;
+    }
+}
+

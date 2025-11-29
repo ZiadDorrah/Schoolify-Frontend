@@ -1,0 +1,138 @@
+.widgetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.widget {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffff;
+  min-height: 742px;
+  width: 1110px;
+  border-radius: 24px;
+  border: 1px solid #f1f5f7;
+}
+
+.rightContent {
+  max-width: 358px;
+  height: 410px;
+  text-align: center;
+  margin: 157px 182px 157px 44px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  h2 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Expo", sans-serif;
+    color: #353535;
+    margin-bottom: 16px;
+  }
+
+  p {
+    width: 352px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Expo";
+    color: #616161;
+    margin-bottom: 0 !important;
+    a {
+      color: #56ad01;
+      text-decoration: underline;
+    }
+  }
+  form {
+    min-width: 358px;
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+
+    .inputSection {
+      max-width: 358px;
+      height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
+      .inputsFeild {
+        width: 50px;
+        height: 50px;
+        border-radius: 14px;
+        border: 1px solid #1616160f;
+        display: flex;
+        align-items: center;
+
+        input {
+          max-width: 100%;
+          text-align: center;
+          outline: 0;
+          border: 0;
+          border-radius: 14px;
+          font-size: 24px;
+          color: #56ad01;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .btn,
+  button {
+    width: 100%;
+    height: 55px;
+    border-radius: 12px;
+    border: 0;
+    color: #ffffff;
+    background: #56ad01;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+.craeteOtpMessage {
+  max-width: 285px;
+  height: 26px;
+  margin-top: 33px;
+  margin: 33px auto 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #848484;
+  a {
+    color: #56ad01;
+    text-decoration: underline;
+  }
+}
+
+.liImage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 24px;
+  object-position: left;
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .rightContent {
+    margin: 60px auto;
+  }
+  .leftImage {
+    display: none;
+  }
+  .leftImage h2 {
+    margin-top: 50px;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  .widget {
+    min-height: 600px;
+  }
+}

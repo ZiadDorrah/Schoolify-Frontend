@@ -1,0 +1,11 @@
+.addSubject {
+  /* width: 139px; */
+  height: 56px;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #56ad01;
+  color: #fff;
+  font-family: "Expo";
+  margin-left: 5px;
+}

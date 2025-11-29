@@ -1,0 +1,60 @@
+.sidebar {
+    width: 300px;
+    background-color: #fff;
+    /* padding: 0px, 10px, 0px; */
+    border: 1px solid #eeeeee;
+}
+
+.logo {
+    color: #56ad01;
+    font-family: "Poppins";
+    font-size: 16.43px;
+    font-weight: 800;
+    padding-right: 24px;
+    margin-top: 34px 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.sidebarButtons ul {
+    list-style: none;
+    padding: 0px 24px;
+}
+
+.sidebarButtons li {
+    padding: 14px 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarButtons li button {
+    padding: 0;
+}
+
+.sidebarButtons li img {
+    width: 24px;
+}
+
+.sidebarButtons h2 {
+    color: #666666;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    font-family: "Expo";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.active li {
+    background-color: #eef7e6;
+    /* padding: 16px; */
+    border-radius: 8px;
+    text-wrap: nowrap;
+}
+
+.active li h2,
+.active li img,
+.active li svg {
+    color: #56AD01;
+}

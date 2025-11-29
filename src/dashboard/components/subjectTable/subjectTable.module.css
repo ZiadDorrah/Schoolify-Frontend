@@ -1,0 +1,48 @@
+.subjectTable {
+    margin-top: 24px;
+}
+
+.subjectTable table {
+    border: 1px solid #F1F1F1;
+    border-radius: 12px;
+}
+
+.subjectTable table thead th {
+    background-color: #F9F9F9;
+}
+
+.subjectTable table tbody td {
+    background-color: #FFFFFF;
+    color: #666666;
+}
+
+.subjectTable .edit {
+    background-color: #F7F7F7;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+}
+
+.subjectTable .edit,
+.subjectTable .del {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjectTable .del {
+    margin-right: 15px;
+    background-color: #FF000014;
+    color: #FF0000;
+    border: none;
+    border-radius: 8px;
+}
+
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }

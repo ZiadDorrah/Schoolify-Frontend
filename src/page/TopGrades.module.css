@@ -1,0 +1,175 @@
+
+.terms{
+    align-items: center;
+    display: flex;
+    gap: 22px;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+
+.terms .term-box {
+    align-items: center;
+    background-color: #ffffff; 
+    border-radius: 12px;
+    cursor: pointer; 
+    display: flex;
+    gap: 10px;
+    height: 103px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 49.5%;   
+    color: #000;
+} 
+
+.terms .term-box:hover,
+.terms .term-box:active {
+    background-color: #56ad01;
+    color: #ffffff;
+}
+.resultPage {
+    margin-right: 65px;
+}
+
+@media (max-width: 978px) {
+    .resultPage {
+        margin-right: 0px;
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+}
+
+
+.terms .text-wrapper {
+    font-family: 'Expo', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    /* line-height: 38.4px; */
+}
+
+.resultPage>* {
+    margin-bottom: 60px;
+}
+
+.top h1 {
+    font-family: 'Expo', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #000;
+    margin-bottom: 48px;
+}
+
+
+.frame {
+    margin-top: 16px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1) ;
+    border: 1px solid ;
+    border-color: rgba(241, 245, 247, 1);
+    border-radius: 12px;
+    /* display: flex; */
+    gap: 16px;
+    padding: 16px;
+    /* padding: 16px 16px 16px 24px; */
+    /* position: relative; */
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* justify-content: space-between; */
+}
+
+.medalstar{
+    height: 56px;
+    width: 56px;
+    position: relative;
+    
+}
+
+.element {
+    /* align-items: flex-end; */
+    display: inline-flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 7px;
+    /* justify-content: center; */
+    /* position: relative; */
+    /* text-align: right;  */
+    /* direction: rtl;  */
+}
+.top-students {
+    /* direction: rtl; */
+}
+.element .name {
+    color: rgba(53,53,53,1);
+    /* direction: rtl; */
+    font-family: 'Expo', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    /* font-style: normal; */
+    /* letter-spacing: 0; */
+    /* line-height: normal; */
+    /* position: relative; */
+    /* width: fit-content; */
+    /* margin-top: -1px; */
+}
+
+.element .rank {
+    color: rgba(86, 173, 1, 1);
+    /* direction: rtl; */
+    font-family: 'Expo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    /* letter-spacing: 0; */
+    /* line-height: normal; */
+    /* position: relative; */
+    /* width: fit-content; */
+    /* margin-top: -1px; */
+    /* direction: rtl;  */
+    /* margin-left: 26%; */
+}
+
+.grade {
+    color:rgba(86, 173, 1, 1);
+    font-family: 'Expo', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    /* position: relative; */
+    /* flex: 1; */
+    
+    /* margin-right: 68%; */
+    /* margin-top: 24px; */
+    margin: auto;
+    /* position: absolute; */
+
+}
+@media (max-width: 330px) {
+    .element .name{
+        font-size: 12px;
+        /* font-weight: 500; */
+    }
+    .element .rank {
+        font-size: 12px;
+    }
+    .grade{
+        font-size: 16px;
+    }
+    .medalstar{
+        width: 35px;
+    }
+}
+
+  
+.div {
+   display: flex;
+}
+  
+ .element>*{
+    direction: rtl;
+ }

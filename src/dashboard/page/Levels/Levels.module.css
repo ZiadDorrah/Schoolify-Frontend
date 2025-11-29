@@ -1,0 +1,62 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.card {
+    width: 95%;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.card h1 {
+    color: #000;
+    font-family: "Expo";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.levels {
+    margin-top: 32px;
+    grid-row-gap: 32px;
+}
+
+.level {
+    width: 360px;
+    height: 117px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.level h1 {
+    color: #000;
+    font-family: "Expo";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.del {
+    /* margin-right: 15px; */
+    background-color: #ff000014;
+    color: #ff0000;
+    border: none;
+    border-radius: 8px;
+}
+
+.del {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 300px; */
+  }

@@ -1,0 +1,76 @@
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.card {
+  width: 90%;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f1;
+}
+
+.selectSection {
+  padding: 20px;
+  border-radius: 8px;
+  /* display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-gap: 20px;
+    align-items: center; */
+  margin-right: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.marginWrapper {
+  margin: 2% 5%;
+}
+
+.selectSection h6 {
+  margin: 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.selectContainer select {
+  /* width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Expo';
+  border: 1px solid #57ad0179;
+  border-radius: 4px;
+  font-size: 16px; */
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #56ad01 !important;
+  cursor: pointer;
+  margin-left: 5px;
+  outline: none;
+}
+
+.selectContainer select option {
+  font-size: 16px;
+  font-family: "Expo";
+}
+
+.selectContainer select:focus {
+  border-color: #888;
+}
+
+.selectContainer select option:hover,
+.selectContainer select option:focus {
+  background-color: #f0f0f0;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 300px; */
+}

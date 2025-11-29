@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Noto+Sans+Arabic&display=swap');
+@import url('https://fonts.cdnfonts.com/css/nomada-didone');
+
+header {
+  color: var(--main-text-color);
+  background: url('../images/headerkids (1) 1.png') no-repeat;
+  background-color: var(--main-bg-color);
+  background-size: 511px;
+  background-position: left left;
+  min-height: 695px;
+}
+
+.title {
+  margin: 160px 0 50px 0;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: 'Expo', sans-serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+  .title {
+    margin: 100px 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: none;
+  }
+  .title {
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .title {
+    margin: 20px 0 20px 0;
+  }
+}
+
+.box_pragrah {
+  max-width: 941px;
+  margin-bottom: 50px;
+}
+
+.pragrah {
+  font-family: 'Expo', sans-serif;
+  text-align: right;
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.box_button {
+  max-width: 776px;
+  max-height: 88px;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.commincation_button,
+.spical_button {
+  border: 1px solid var(--main-text-color);
+  border-radius: 72px;
+  gap: 23px;
+  width: 210px;
+  background-color: transparent;
+  padding: 10px;
+  color: var(--main-text-color);
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+
+.commincation_button:hover {
+  background-color: var(--main-button-color);
+  border: 1px solid var(--main-button-color);
+}
+
+.spical_button {
+  border-radius: 72px;
+  gap: 23px;
+  width: 210px;
+  background-color: var(--main-button-color);
+  padding: 10px;
+  color: var(--main-text-color);
+  border: 1px solid var(--main-button-color);
+  margin-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+
+.spical_button:hover {
+  border: 1px solid var(--main-text-color);
+  background-color: transparent;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+}
+
+.buttonContent img {
+  height: auto;
+  position: absolute;
+  margin-right: 25px;
+}
+
+.buttonContent span {
+  margin-left: 90px;
+  font-family: 'Expo', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 auto;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    /* gap: 15px; */
+    height: 100vh;
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.lowerComponents {
+  display: flex;
+  gap: 15px;
+}
+
+
+
+.content {
+    width: 100%;
+}
+
+.holder{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.search_div{
+    width: 93%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+

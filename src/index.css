@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: "ُExpo";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f2f29a;
+  /* height: 10000px; */
+}
+
+.container-fluid {
+  /* max-width: 1520px; */
+  padding: 0px 40px;
+}
+
+.container {
+  /* max-width: 1660px; */
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Expo-SemiBold";
+  src: url("./assets/fonts/ExpoArabic-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Expo";
+  src: url("./assets/fonts/ExpoArabic-Book.ttf");
+}
+
+@font-face {
+  font-family: "Expo-light";
+  src: url("./assets/fonts/Expo\ Arabic\ Light.ttf");
+}
+
+@font-face {
+  font-family: "Expo-medium";
+  src: url("./assets/fonts/Expo\ Arabic\ Medium.ttf");
+}
+
+@font-face {
+  font-family: "Expo-bold";
+  src: url("./assets/fonts/Expo\ Arabic\ Bold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Noto+Sans+Arabic&display=swap");
+
+/* slider card to make image visable  */
+.slick-list {
+  padding-top: 20px !important;
+}
+
+/* to change style for the dots in the slider  */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  margin-bottom: 30px;
+}
+
+.slick-dots li.slick-active button:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background-color: #ff8700;
+  border-radius: 5px;
+  opacity: 0.75;
+  margin-top: 5.8px;
+  position: relative;
+  left: -20px;
+  top: 2px;
+}
+
+.slick-dots li {
+  margin: 0 15px;
+}
+
+/* popup for the container */
+div:where(.swal2-container).swal2-center>.swal2-popup {
+  border-radius: 48px;
+  max-width: 900px;
+  padding: 10px;
+  /* max-height: 555px; */
+}
+
+@media only screen and (max-width: 567px) {
+  div:where(.swal2-container).swal2-center>.swal2-popup {
+    border-radius: 20px;
+    max-width: 400px;
+    padding: 2px;
+    height: 450px;
+  }
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm,
+.popup-confirm-button {
+  font-family: "ExpoArabicBook", sans-serif;
+  width: 200px;
+  padding: 10px;
+  border-radius: 16px;
+  gap: 10px;
+  background-color: var(--main-bg-color) !important;
+  border: none;
+  color: white;
+  border-color: var(--main-bg-color) !important;
+  outline: none;
+  background: none;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+  box-shadow: 0 0 0 3px rgba(165, 18, 18, 0) !important;
+  box-shadow: none;
+}
+
+.form-check-input[type="radio"] {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.form-check-input:checked {
+  background-color: #717477;
+  border-color: #717477;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

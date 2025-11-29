@@ -1,0 +1,154 @@
+.chachallengs {
+    gap: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-stu-res {
+    display: block !important;
+}
+
+@media (min-width: 991px) {
+    .page {
+        width: 80%;
+    }
+
+    .info-stu-res {
+        display: none !important;
+    }
+}
+
+.page {
+    width: 100%;
+}
+
+.page>* {
+    margin-bottom: 60px;
+}
+
+.challenge {
+    direction: rtl;
+}
+
+.challenge h1 {
+    font-family: 'Expo Arabic';
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+}
+
+.challenge>* {
+    margin-bottom: 33px;
+}
+
+.challenge-pionts {
+    width: 100%;
+    background-color: #EAEAEA;
+    padding: 28px 25px;
+    border-radius: 10px;
+}
+
+.challenge-pionts>div {
+    gap: 20px;
+}
+
+
+.points {
+    gap: 77px;
+    flex-wrap: wrap;
+}
+
+.current-level,
+.current-points {
+    gap: 24px;
+}
+
+@media (max-width: 1222px) {
+    .points {
+        gap: 10px !important;
+    }
+
+    .current-level,
+    .current-points {
+        gap: 10px;
+    }
+}
+
+.levels {
+    background-color: #FDF8EE;
+    padding: 10px 24px;
+    border-radius: 8px;
+
+}
+
+.levels h1 {
+    font-family: 'Expo-medium';
+    font-weight: 500;
+    font-size: 24px;
+    color: #56AD01;
+    margin-right: 24px;
+    margin-bottom: 0;
+}
+
+.Challenges-units {
+    gap: 20px;
+}
+
+.Challenges-units .card {
+    padding: 46px 26px 46px 26px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.Challenges-units .card h2 {
+    font-family: 'Expo-medium';
+    font-weight: 500;
+    font-size: 20px;
+    margin: 36px 0 58px 0;
+}
+
+.Challenges-units .card h3,
+.Challenges-units .card span {
+    font-family: 'Expo-medium';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Challenges-units .card .progress {
+    margin-bottom: 17px;
+}
+
+.Challenges-units .card .btn {
+    width: 301px;
+    background-color: #56AD01;
+    color: #FFFFFF;
+    font-family: 'Expo-medium';
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+@media (max-width: 1502px) {
+    .Challenges-units .card .btn {
+        width: 124px;
+        padding: 10px;
+        font-family: 'Expo-medium';
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+}
+
+.noChallenge {
+    margin-top: 120px;
+}
+
+@media (max-width: 806px) {
+    .Challenges-units {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
