@@ -32,5 +32,5 @@ To see Schoolify in action, open or download the demo video:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/mohameddnazeer/Schoolify-Frontend.git
+   git clone https://github.com/ZiadDorrah/Schoolify-Frontend.git
    cd schoolify
