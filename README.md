@@ -253,13 +253,17 @@ _Refer to your Laravel backend documentation for complete API specifications._
 
 ---
 
-## 🎬 Demo Video
+## 🎬 Demo Videos
 
-To see Schoolify in action, open or download the demo video:
+### Platform Demo
 
-**[📥 Download Demo Video](./video_demo/demo.mp4)**
+https://github.com/ZiadDorrah/Schoolify-Frontend/assets/demo.mp4
 
-> The video demonstration is located in the [`video_demo`](./video_demo) folder of this project.
+### Market Overview
+
+https://github.com/ZiadDorrah/Schoolify-Frontend/assets/Market.mp4
+
+> **Download**: You can also download the videos from the [`video_demo`](./video_demo) folder: [demo.mp4](./video_demo/demo.mp4) | [Market.mp4](./video_demo/Market.mp4)
 
 ---
 
