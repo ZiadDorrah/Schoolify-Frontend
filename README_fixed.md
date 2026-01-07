@@ -290,8 +290,7 @@ Contributions are welcome! Please follow these guidelines:
 
 1. **Fork the repository**
 2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
+   ```bash   git checkout -b feature/amazing-feature
    ```
 3. **Commit your changes**
    ```bash
@@ -331,4 +330,9 @@ This project is part of an educational platform. Please contact the maintainers 
 
 ⭐ Star this repository if you find it helpful!
 
-</div>
+# </div>
+
+git clone https://github.com/ZiadDorrah/Schoolify-Frontend.git
+cd schoolify
+
+> > > > > > > cb3986d82837840ee49e118b50791d4bf259a3a2

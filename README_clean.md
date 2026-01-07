@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# 📚 Schoolify
+# ðŸ“š Schoolify
 
 ### Modern Educational Platform for Enhanced Learning Management
 
@@ -10,13 +10,13 @@
 
 **Schoolify** is a comprehensive educational platform designed to streamline learning, assessment, and academic administration for students, teachers, and administrators.
 
-[Demo Video](#-demo-video) • [Features](#-features) • [Getting Started](#-getting-started)
+[Demo Video](#-demo-video) â€¢ [Features](#-features) â€¢ [Getting Started](#-getting-started)
 
 </div>
 
 ---
 
-## 📖 About
+## ðŸ“– About
 
 Schoolify is a feature-rich web application that transforms the traditional educational experience by providing:
 
@@ -30,12 +30,12 @@ Built with modern web technologies, Schoolify ensures a responsive, intuitive ex
 
 ---
 
-## ✨ Features
+## âœ¨ Features
 
-### 🎓 Student Features
+### ðŸŽ“ Student Features
 
 - **Subject Navigation**: Browse and explore multiple subjects (Mathematics, Science, History, Arabic, English, French)
-- **Structured Learning**: Navigate through subjects → units → lessons hierarchy
+- **Structured Learning**: Navigate through subjects â†’ units â†’ lessons hierarchy
 - **Multiple Exam Types**:
   - Lesson-specific exams to test understanding of individual topics
   - Unit tests to assess comprehensive knowledge
@@ -47,14 +47,14 @@ Built with modern web technologies, Schoolify ensures a responsive, intuitive ex
   - Top students leaderboard to track rankings
 - **Profile Management**: Customize and manage personal account settings
 
-### 🔐 Authentication & Security
+### ðŸ” Authentication & Security
 
 - **User Registration**: Comprehensive sign-up process with validation
 - **Secure Login**: JWT-based authentication system
 - **OTP Verification**: Two-factor authentication for enhanced security
 - **Session Management**: Secure token storage with js-cookie
 
-### 👨‍🏫 Dashboard (Admin/Teacher)
+### ðŸ‘¨â€ðŸ« Dashboard (Admin/Teacher)
 
 - **Subject Management**: Create, edit, and organize subjects
 - **Level Administration**: Manage academic levels and grades
@@ -64,7 +64,7 @@ Built with modern web technologies, Schoolify ensures a responsive, intuitive ex
 - **Student Oversight**: Track student progress and manage enrollments
 - **Challenge Creation**: Design and deploy challenging problem sets
 
-### 🎨 User Experience
+### ðŸŽ¨ User Experience
 
 - **RTL Support**: Native Arabic language support with right-to-left layout
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
@@ -73,7 +73,7 @@ Built with modern web technologies, Schoolify ensures a responsive, intuitive ex
 
 ---
 
-## 🛠️ Technology Stack
+## ðŸ› ï¸ Technology Stack
 
 ### Frontend Framework
 
@@ -115,63 +115,63 @@ Built with modern web technologies, Schoolify ensures a responsive, intuitive ex
 
 ---
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```
 Schoolify-Frontend/
-├── public/                      # Static public assets
-│   ├── index.html              # HTML template
-│   ├── favicon.ico             # App icon
-│   └── schoolify-removebg-preview.png
-├── src/
-│   ├── components/             # Reusable components
-│   │   ├── HomePage/          # Home page components
-│   │   ├── PlatformContent/   # Content delivery components
-│   │   ├── Uitily/            # Utility components (Header, Sidebar)
-│   │   ├── Wechsler/          # Wechsler test components
-│   │   ├── landingComponents/ # Landing page sections
-│   │   ├── popupComponents/   # Modal and popup components
-│   │   └── revisionComponents/# Review and revision tools
-│   ├── dashboard/             # Admin dashboard
-│   │   ├── components/        # Dashboard-specific components
-│   │   └── page/              # Dashboard pages
-│   │       ├── Dashboard page/
-│   │       ├── subject/       # Subject management
-│   │       ├── Teachers/      # Teacher administration
-│   │       ├── Levels/        # Level management
-│   │       ├── StudentsPage/  # Student oversight
-│   │       ├── ContentPage/   # Content management
-│   │       ├── AddUnits/      # Unit creation
-│   │       └── Challenges/    # Challenge management
-│   ├── page/                  # Main application pages
-│   │   ├── LandingPage.jsx   # Landing page
-│   │   ├── LoginPage.jsx     # User login
-│   │   ├── SignUp.jsx        # Registration
-│   │   ├── AllUnits.jsx      # Unit listing
-│   │   ├── AllLessons.jsx    # Lesson listing
-│   │   ├── Subject.jsx       # Subject view
-│   │   ├── Exam.jsx          # Exam interface
-│   │   ├── Challenges.jsx    # Challenge mode
-│   │   ├── ExamResults.jsx   # Results display
-│   │   └── TopGrades.jsx     # Leaderboard
-│   ├── store/                 # State management
-│   │   ├── AuthContext.js    # Authentication context
-│   │   ├── ProtectedRoute.js # Route protection
-│   │   └── getAuthToken.js   # Token utilities
-│   ├── dashStore/             # Dashboard state
-│   │   └── AuthContextDash.js
-│   ├── assets/                # Images and media
-│   ├── App.js                 # Main app component
-│   ├── App.css                # Global styles
-│   └── index.js               # Application entry point
-├── video_demo/                # Demo video
-├── package.json               # Dependencies and scripts
-└── README.md                  # This file
+â”œâ”€â”€ public/                      # Static public assets
+â”‚   â”œâ”€â”€ index.html              # HTML template
+â”‚   â”œâ”€â”€ favicon.ico             # App icon
+â”‚   â””â”€â”€ schoolify-removebg-preview.png
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ components/             # Reusable components
+â”‚   â”‚   â”œâ”€â”€ HomePage/          # Home page components
+â”‚   â”‚   â”œâ”€â”€ PlatformContent/   # Content delivery components
+â”‚   â”‚   â”œâ”€â”€ Uitily/            # Utility components (Header, Sidebar)
+â”‚   â”‚   â”œâ”€â”€ Wechsler/          # Wechsler test components
+â”‚   â”‚   â”œâ”€â”€ landingComponents/ # Landing page sections
+â”‚   â”‚   â”œâ”€â”€ popupComponents/   # Modal and popup components
+â”‚   â”‚   â””â”€â”€ revisionComponents/# Review and revision tools
+â”‚   â”œâ”€â”€ dashboard/             # Admin dashboard
+â”‚   â”‚   â”œâ”€â”€ components/        # Dashboard-specific components
+â”‚   â”‚   â””â”€â”€ page/              # Dashboard pages
+â”‚   â”‚       â”œâ”€â”€ Dashboard page/
+â”‚   â”‚       â”œâ”€â”€ subject/       # Subject management
+â”‚   â”‚       â”œâ”€â”€ Teachers/      # Teacher administration
+â”‚   â”‚       â”œâ”€â”€ Levels/        # Level management
+â”‚   â”‚       â”œâ”€â”€ StudentsPage/  # Student oversight
+â”‚   â”‚       â”œâ”€â”€ ContentPage/   # Content management
+â”‚   â”‚       â”œâ”€â”€ AddUnits/      # Unit creation
+â”‚   â”‚       â””â”€â”€ Challenges/    # Challenge management
+â”‚   â”œâ”€â”€ page/                  # Main application pages
+â”‚   â”‚   â”œâ”€â”€ LandingPage.jsx   # Landing page
+â”‚   â”‚   â”œâ”€â”€ LoginPage.jsx     # User login
+â”‚   â”‚   â”œâ”€â”€ SignUp.jsx        # Registration
+â”‚   â”‚   â”œâ”€â”€ AllUnits.jsx      # Unit listing
+â”‚   â”‚   â”œâ”€â”€ AllLessons.jsx    # Lesson listing
+â”‚   â”‚   â”œâ”€â”€ Subject.jsx       # Subject view
+â”‚   â”‚   â”œâ”€â”€ Exam.jsx          # Exam interface
+â”‚   â”‚   â”œâ”€â”€ Challenges.jsx    # Challenge mode
+â”‚   â”‚   â”œâ”€â”€ ExamResults.jsx   # Results display
+â”‚   â”‚   â””â”€â”€ TopGrades.jsx     # Leaderboard
+â”‚   â”œâ”€â”€ store/                 # State management
+â”‚   â”‚   â”œâ”€â”€ AuthContext.js    # Authentication context
+â”‚   â”‚   â”œâ”€â”€ ProtectedRoute.js # Route protection
+â”‚   â”‚   â””â”€â”€ getAuthToken.js   # Token utilities
+â”‚   â”œâ”€â”€ dashStore/             # Dashboard state
+â”‚   â”‚   â””â”€â”€ AuthContextDash.js
+â”‚   â”œâ”€â”€ assets/                # Images and media
+â”‚   â”œâ”€â”€ App.js                 # Main app component
+â”‚   â”œâ”€â”€ App.css                # Global styles
+â”‚   â””â”€â”€ index.js               # Application entry point
+â”œâ”€â”€ video_demo/                # Demo video
+â”œâ”€â”€ package.json               # Dependencies and scripts
+â””â”€â”€ README.md                  # This file
 ```
 
 ---
 
-## 🚀 Getting Started
+## ðŸš€ Getting Started
 
 ### Prerequisites
 
@@ -223,11 +223,11 @@ The application will open at [http://localhost:3000](http://localhost:3000)
 - **`npm start`** - Runs the app in development mode
 - **`npm test`** - Launches the test runner
 - **`npm run build`** - Builds the app for production to the `build` folder
-- **`npm run eject`** - Ejects from Create React App (⚠️ irreversible)
+- **`npm run eject`** - Ejects from Create React App (âš ï¸ irreversible)
 
 ---
 
-## ⚙️ Configuration
+## âš™ï¸ Configuration
 
 ### Backend Integration
 
@@ -253,23 +253,23 @@ _Refer to your Laravel backend documentation for complete API specifications._
 
 ---
 
-## 🎬 Demo Video
+## ðŸŽ¬ Demo Video
 
 To see Schoolify in action, open or download the demo video:
 
-**[📥 Download Demo Video](./video_demo/demo.mp4)**
+**[ðŸ“¥ Download Demo Video](./video_demo/demo.mp4)**
 
 > The video demonstration is located in the [`video_demo`](./video_demo) folder of this project.
 
 ---
 
-## 🎯 Features Walkthrough
+## ðŸŽ¯ Features Walkthrough
 
 ### For Students
 
 1. **Sign Up/Login**: Create an account or log in with existing credentials
 2. **Browse Subjects**: Navigate to the platform and select your subject
-3. **Explore Content**: Drill down through Units → Lessons to access learning materials
+3. **Explore Content**: Drill down through Units â†’ Lessons to access learning materials
 4. **Take Exams**: Test your knowledge with lesson and unit exams
 5. **Challenge Mode**: Push your limits with advanced problem sets
 6. **Track Performance**: View your results and ranking on the leaderboard
@@ -284,13 +284,14 @@ To see Schoolify in action, open or download the demo video:
 
 ---
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
 1. **Fork the repository**
 2. **Create a feature branch**
    ```bash
+   <<<<<<< HEAD
    git checkout -b feature/amazing-feature
    ```
 3. **Commit your changes**
@@ -312,13 +313,13 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
 This project is part of an educational platform. Please contact the maintainers for licensing information.
 
 ---
 
-## 📞 Contact & Support
+## ðŸ“ž Contact & Support
 
 - **GitHub Repository**: [ZiadDorrah/Schoolify-Frontend](https://github.com/ZiadDorrah/Schoolify-Frontend)
 - **Issues**: [Report a bug or request a feature](https://github.com/ZiadDorrah/Schoolify-Frontend/issues)
@@ -327,8 +328,14 @@ This project is part of an educational platform. Please contact the maintainers 
 
 <div align="center">
 
-**Built with ❤️ for better education**
+**Built with â¤ï¸ for better education**
 
-⭐ Star this repository if you find it helpful!
+â­ Star this repository if you find it helpful!
 
-</div>
+# </div>
+
+git clone https://github.com/ZiadDorrah/Schoolify-Frontend.git
+cd schoolify
+
+> > > > > > > cb3986d82837840ee49e118b50791d4bf259a3a2
+
